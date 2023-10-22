@@ -1,5 +1,5 @@
 const styles = {
-	boxWidth: 'xl:max-w-[1400px] w-full',
+	boxWidth: 'xl:max-w-[1400px] w-full m-auto',
 
 	heroHeading: 'font-rubik font-normal text-[20px] xs:text-[30px] ss:text-[40px] text-center md:text-left ',
 
