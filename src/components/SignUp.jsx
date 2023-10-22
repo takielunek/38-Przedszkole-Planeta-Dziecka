@@ -15,7 +15,7 @@ function SignUp() {
 			<div className='flex justify-center mx-10'>
 				<button
 					type='button'
-					className={`${styles.paragraph} ${styles.button} ${styles.hover} bg-green mt-10 md:mt-20`}>
+					className={`${styles.paragraph} ${styles.button} ${styles.hover} bg-green mt-10 md:mt-20`} data-aos="zoom-out">
 					Formularz
 				</button>
 			</div>

@@ -3,11 +3,13 @@ import { methods } from '../constants';
 import chevron from '../assets/chevron.svg';
 import styles from '../style';
 
+
 function Methods() {
+
 	return (
 		<section
 			className={`${styles.flexRowCol} ${styles.marginY} ${styles.marginX}`}>
-			<div className={`flex-1 flex-col place-content-center mx-6 xs:mx-20 mt-10`}>
+			<div className={`flex-1 flex-col place-content-center mx-6 xs:mx-20 mt-10`} data-aos="fade-right">
 				<p className={`${styles.paragraph2} text-center md:text-start`}>Wzmacniamy wszystkie typy</p>
 				<h2 className={`${styles.heading2} text-red text-center md:text-start`}>inteligencji </h2>
 				{methods.map((p) => (
@@ -21,7 +23,7 @@ function Methods() {
 			</div>
 
 			<div className={`${styles.picture} mr-0 md:mr-20`}>
-				<img src={picture3} alt='child' className={`${styles.pictureHeight} md:mt-10`} />
+				<img src={picture3} alt='child' data-aos="fade-left" className={`${styles.pictureHeight} md:mt-10`} />
 			</div>
 		</section>
 	);

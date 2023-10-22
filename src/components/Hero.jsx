@@ -2,15 +2,17 @@
 import picture5 from '../assets/picture5.png';
 import styles from '../style';
 
+
+
 function Hero() {
+
 	return (
 
-		
 		<section className={`${styles.marginY}`}>
 			
 			<div className={`${styles.flexRowCol} ${styles.marginX} `}>
 				<div>
-					<div className='flex flex-col '>
+					<div className='flex flex-col' data-aos="zoom-out">
 						<button
 							type='button'
 							className={`${styles.paragraph} ${styles.button} ${styles.hover} bg-green my-1 md:my-3`}>
@@ -34,7 +36,7 @@ function Hero() {
 				</div>
 
 				<div className={`${styles.picture}`}>
-					<img src={picture5} alt='child' className={`${styles.pictureHeight} `}/>
+					<img src={picture5} data-aos="fade-left" alt='child' className={`${styles.pictureHeight} `}/>
 				</div>
 			</div>
 

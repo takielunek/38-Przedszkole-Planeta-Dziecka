@@ -7,6 +7,7 @@ import facebook from '../assets/facebook.svg';
 import styles from '../style';
 import logo from '../assets/logo.png';
 
+
 function Footer() {
 	const currentYear = new Date().getFullYear();
 
@@ -16,7 +17,7 @@ function Footer() {
 				<h2 className={` ${styles.heading2} text-red text-center`}>Kontakt</h2>
 				<div className={`${styles.flexRowCol} `} >
 					<div
-						className={`${styles.paragraph} flex-1  mt-3 xs:mt-6 md:mt-10`}>
+						className={`${styles.paragraph} flex-1  mt-3 xs:mt-6 md:mt-10`} data-aos="fade-right">
 						<div>
 							<p className='mt-4 flex flex-row'>
 								<img src={pin} alt='pin' className='mr-6' /> ul. Sportowa 1A,
@@ -49,7 +50,7 @@ function Footer() {
 						</div>
 					</div>
 					<div className={`${styles.picture}`}>
-						<img src={picture2} alt='child' className={`${styles.pictureHeight}`}/>
+						<img src={picture2} alt='child' data-aos="fade-left" className={`${styles.pictureHeight}`}/>
 					</div>
 				</div>
 				<div className='flex justify-center md:justify-start'>

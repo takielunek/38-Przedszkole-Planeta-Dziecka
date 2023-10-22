@@ -13,7 +13,7 @@ const styles = {
 	paragraph1: 'font-rubik font-bold text-[10px] xs:text-[15px]',
 	paragraph2:'font-rubik font-normal text-[10px] xs:text-[15px] ss:text-[30px] ',
 
-	button: 'py-2 px-5 text-white rounded-[50px] mx-20 ss:mx-40 md:mx-0',
+	button: 'py-2 px-5 text-white rounded-[50px] ',
 
 	flexCenter: ' justify-center items-center',
 	flexRowCol: 'flex md:flex-row flex-col',

@@ -7,7 +7,7 @@ function More() {
 				<h2 className={` ${styles.heading2} text-yellow text-center mb-5`}>
 					Sprawdź również
 				</h2>
-				<div className={`${styles.flexRowCol} justify-around`}>
+				<div className={`${styles.flexRowCol} justify-around`} data-aos="zoom-out">
 					<button
 						type='button'
 						className={`${styles.paragraph} ${styles.button} ${styles.hover} bg-green my-1 xs:my-2 ss:my-3`}>

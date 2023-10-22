@@ -12,8 +12,17 @@ import SignUp from './components/SignUp';
 import Footer from './components/Footer';
 import ScrollButton from './components/ScrollButton';
 import styles from './style';
+import { useEffect } from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css"
+
 
 function App() {
+
+	useEffect(() => {
+		AOS.init({duration:1200})
+		})
+
 	return (
 		<div className={`${styles.boxWidth} bg-white`}>
 			<Navbar />

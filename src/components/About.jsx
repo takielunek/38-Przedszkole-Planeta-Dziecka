@@ -3,14 +3,16 @@ import { paragraphs } from '../constants';
 import chevron from '../assets/chevron.svg';
 import styles from "../style";
 
+
 function About() {
+
 	return (
 		<section id="about" className={`${styles.marginY} ${styles.marginX} flex flex-col-reverse md:flex-row`}>
 			<div className={`${styles.picture}`}>
-				<img src={picture4} alt='child' className={`${styles.pictureHeight} md:mt-10`}/>
+				<img src={picture4} alt='child' data-aos="fade-right" className={`${styles.pictureHeight} md:mt-10`}/>
 			</div>
 
-			<div className='flex-1 mx-6 xs:mx-20 mt-10'>
+			<div className='flex-1 mx-6 xs:mx-20 mt-10' data-aos="fade-left">
 				<h2 className={` ${styles.heading2} text-red text-center md:text-start `}>U nas</h2>
 				{paragraphs.map((p) => (
 					<div key={p.id}>
