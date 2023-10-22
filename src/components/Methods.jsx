@@ -21,7 +21,7 @@ function Methods() {
 			</div>
 
 			<div className={`${styles.picture} mr-0 md:mr-20`}>
-				<img src={picture3} alt='child' className={`${styles.pictureHeight}`} />
+				<img src={picture3} alt='child' className={`${styles.pictureHeight} md:mt-10`} />
 			</div>
 		</section>
 	);

@@ -7,7 +7,7 @@ function About() {
 	return (
 		<section id="about" className={`${styles.marginY} ${styles.marginX} flex flex-col-reverse md:flex-row`}>
 			<div className={`${styles.picture}`}>
-				<img src={picture4} alt='child' className={`${styles.pictureHeight}`}/>
+				<img src={picture4} alt='child' className={`${styles.pictureHeight} md:mt-10`}/>
 			</div>
 
 			<div className='flex-1 mx-6 xs:mx-20 mt-10'>

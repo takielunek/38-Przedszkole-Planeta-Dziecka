@@ -34,7 +34,7 @@ function Hero() {
 				</div>
 
 				<div className={`${styles.picture}`}>
-					<img src={picture5} alt='child' className={`${styles.pictureHeight}`}/>
+					<img src={picture5} alt='child' className={`${styles.pictureHeight} `}/>
 				</div>
 			</div>
 

@@ -10,7 +10,7 @@ const styles = {
 	heading1: 'font-rubik font-bold text-[30px] xs:text-[40px] ss:text-[50px] sm:text-[60px] md:text-[80px] mt-3 md:mt-10',
 
 	paragraph:'font-rubik font-normal text-[15px] xs:text-[20px]  ',
-	paragraph1: 'font-rubik font-bold text-[15px] xs:text-[20px]',
+	paragraph1: 'font-rubik font-bold text-[10px] xs:text-[15px]',
 	paragraph2:'font-rubik font-normal text-[10px] xs:text-[15px] ss:text-[30px] ',
 
 	button: 'py-2 px-5 text-white rounded-[50px] mx-20 ss:mx-40 md:mx-0',
