@@ -4,7 +4,7 @@ import logo2 from '../assets/logo2.png';
 import menu from '../assets/menu.svg';
 import close from '../assets/close.svg';
 import { navLinks } from '../constants/index.js';
-import styles from "../style";
+import styles from '../style';
 
 function Navbar() {
 	const [active, setActive] = useState('U nas');
@@ -27,8 +27,7 @@ function Navbar() {
 				))}
 			</ul>
 
-
-			<div className='sm:hidden flex flex-1 justify-end items-center'>
+			<div className='sm:hidden flex flex-1 justify-end items-center z-10 '>
 				<img
 					src={toggle ? close : menu}
 					alt='menu'
@@ -38,12 +37,12 @@ function Navbar() {
 				<div
 					className={`${
 						!toggle ? 'hidden' : 'flex'
-					} p-10 bg-green absolute top-14 right-0 mx-4 my-2 min-w-[140px] rounded-xl`}>
-					<ul className='list-none flex justify-end items-start flex-1 flex-col'>
+					} p-10 bg-green absolute top-20 right-0  min-w-[200px] h-full rounded-l-xl`}>
+					<ul className='list-none flex justify-start items-start flex-1 flex-col'>
 						{navLinks.map((nav, index) => (
 							<li
 								key={nav.id}
-								className={`${styles.paragraph1 } text-white cursor-pointer  ${
+								className={`${styles.paragraph1} text-white cursor-pointer  ${
 									active === nav.title ? 'font-bold' : 'font-normal'
 								} ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'}`}
 								onClick={() => setActive(nav.title)}>
